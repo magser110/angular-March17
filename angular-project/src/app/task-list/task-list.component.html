@@ -1,0 +1,6 @@
+<p>my tasks are: </p>
+@for(task of tasks(); track task){
+<p>{{task}}</p>
+} @empty {
+  <p>there are no tasks to display</p>
+}

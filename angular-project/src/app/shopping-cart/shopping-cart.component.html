@@ -1,0 +1,5 @@
+<p>items are:</p>
+@for(item of items(); track item){
+  <p>{{item}}</p>
+  <button (click)="delete(item)">delete</button>
+}

@@ -1,0 +1,8 @@
+<p>favorite-books works!</p>
+@for (book of books(); track book.id){
+  <app-book-item [book]="book">
+    
+  </app-book-item>
+} @empty {
+  <p>there are no books in list</p>
+}
